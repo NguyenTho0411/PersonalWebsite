@@ -5,7 +5,7 @@ FROM tomcat:10.0-jdk17
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
 
 # Sao chép file index.html vào thư mục ROOT
-COPY git index.html /usr/local/tomcat/webapps/ROOT/
+COPY index.html /usr/local/tomcat/webapps/ROOT/
 
 
 # Expose port
