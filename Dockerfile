@@ -6,7 +6,7 @@ RUN rm -rf /usr/local/tomcat/webapps/ROOT/*
 
 # Sao chép file index.html từ src\main\webapp\WEB-INF vào thư mục ROOT của Tomcat
 COPY src/main/webapp/index.html /usr/local/tomcat/webapps/ROOT/
-
+COPY src/main/webapp/styles/main.css /usr/local/tomcat/webapps/ROOT/css
 # Expose port
 EXPOSE 8080
 
