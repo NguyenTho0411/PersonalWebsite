@@ -1,214 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nguyen Huu Duc Tho - 22110237</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  opacity: 0;
-  transition: opacity 3s;
-  background-color: aliceblue;
-}
-
-.hero {
-  width: 100%;
-  height: 100vh;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 200px;
-}
-
-.nav .link ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  list-style: none;
-}
-
-.nav .link ul a {
-  text-decoration: none;
-  color: navy;
-  font-weight: 600;
-  transition: all 2000ms ease-in-out;
-}
-
-ul a .active {
-  color: #f4637b;
-}
-
-.nav .link ul a:hover {
-  color: #f4637b;
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6rem;
-  margin-top: 70px;
-}
-
-.main .men {
-  width: 400px;
-  transition: all 2000ms ease;
-  cursor: pointer;
-}
-
-.main .men:hover {
-  transform: scale(1.3);
-}
-
-.main .main-detil {
-  text-align: center;
-  color: #2a2a2a;
-}
-
-.main .main-detil h1 {
-  font-size: 50px;
-}
-
-.main .main-detil h4 {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.main .btn button {
-  padding: 8px 20px;
-  background: transparent;
-  border-radius: 30px;
-  border: 1px solid #2a2a2a;
-  margin-right: 1rem;
-  margin-bottom: 30px;
-  cursor: pointer;
-}
-
-.main .btn .btn-2 {
-  padding: 8px 30px;
-  background: steelblue;
-  color: #fff;
-  border: none;
-  outline: none;
-  transition: all 2000ms ease-in-out;
-}
-
-.main .btn .btn-2:hover {
-  background: #f4637b;
-  transform: scale(1.1);
-}
-
-.social i {
-  color: #2a2a2a;
-  font-size: 40px;
-  margin: 0px 14px;
-  transition: all 2000ms ease-in-out;
-  cursor: pointer;
-  border: #2a2a2a;
-}
-
-.social i:hover {
-  color: #f4637b;
-  border: #2a2a2a;
-}
-
-.sub-btn a {
-  position: absolute;
-  bottom: 60px;
-  right: 50px;
-  padding: 10px 20px;
-  background: red;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  border-radius: 6px;
-}
-
-      </style>
-
-    <!-- Boxicons CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-      <body onload="document.body.style.opacity='1'">
-        <div class="hero">
-          <div class="nav">
-            <div class="logo">
-              <h2 style="color: navy">Nguyen Huu Duc Tho</h2>
-            </div>
-            <div class="link">
-              <ul>
-                <li><a href="#" class="active">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Experience</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="main">
-            <img src="images/img.jpg" alt="men" class="men" />
-            <div class="main-detil">
-              <h1>Nguyen Huu Duc Tho</h1>
-              <h4>I'm Currently a Junior at HCMUTE</h4>
-              <h4>Imformation Technology</h4>
-
-              <div class="btn">
-                <button onclick="window.location.href='https://two2110237emaillist.onrender.com/EmailList/'" class="btn-2">
-                  Assignment 1
-                </button>
-                <button
-                  onclick="window.location.href='https://two2110237web.onrender.com/MurachEmailList/'"
-                  class="btn-2"
-                >
-                  Assignment 2
-                </button>
-                <button onclick="window.location.href='https://two2110237exercise5-1.onrender.com/exercise_emaillist-1.0-SNAPSHOT'" class="btn-2">
-                  Assignment 5.1
-                </button>
-                <button onclick="window.location.href='https://two2110237exercise5-2.onrender.com/c5_exercise02-1.0-SNAPSHOT/'" class="btn-2">
-                  Assignment 5.2
-                </button>
-                  <button onclick="window.location.href='https://two2110237exercise5-2.onrender.com/c5_exercise02-1.0-SNAPSHOT/'" class="btn-2">
-                  Assignment 6.1
-                </button>
-                  <button onclick="window.location.href='https://exercise6-2.onrender.com/exercise62git/'" class="btn-2">
-                  Assignment 6.2
-                </button>
-              </button>
-              <button onclick="window.location.href='https://two2110237exercise6session.onrender.com/execersiseofficalweek6-1.0-SNAPSHOT'" class="btn-2">
-              Week 6 - Session
-            </button>
-              </div>
-
-              <div class="social">
-                <a
-                  href="https://www.facebook.com/profile.php?id=100011967645673&mibextid=LQQJ4d"
-                  ><i class="bx bxl-facebook"></i
-                ></a>
-                <a href="https://www.instagram.com/iammoon________/"
-                  ><i class="bx bxl-instagram"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div align="center">
-          <h5>Copyright (C) 2024 by Nguyen Huu Duc Tho</h5>
-        </div>
-      </body>
-    </html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Portfolio</title>
   </head>
+  <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <!-- logo -->
+          <div class="navbar__logo">
+            <img src="./img/logo.svg" alt="website logo" />
+          </div>
+          <!-- links -->
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="#works">Assignment</a></li>
+            <li class="navbar__link"><a href="#things">About</a></li>
+            <li class="navbar__link"><a href="#works">Resume</a></li>
+            <a href="#footer"><button class="navbar__btn">Contact</button></a>
+          </ul>
+          <!-- menu button -->
+          <div class="navbar__icons">
+            <div class="navbar__icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <!-- img -->
+        <div class="banner__img">
+          <img
+            src="./img/Screenshot 2024-09-30 000630.png"
+            alt="illustration of women"
+          />
+        </div>
+        <!-- heading -->
+        <div class="banner__heading">
+          <h1>Hello, I'm Nguyen Huu Duc Tho</h1>
+          <p>
+            I'm currently a Junior at Ho Chi Minh City University Technology and
+            Education. My major is Imformation Technology.
+          </p>
+          <a href="#"><button class="banner__btn">View More</button></a>
+          <div class="banner__socials">
+            <a
+              href="https://www.facebook.com/profile.php?id=100011967645673&mibextid=LQQJ4d"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/iammoon________/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- things -->
+    <section id="things">
+      <div class="container">
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- dec -->
+        <div class="things__dec">
+          <img src="./img/things-dec-r.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>About me</h2>
+        <!-- item 1 -->
+        <div class="things__item">
+          <!-- img -->
+          <img
+            src="./img/software-engineering-career-ed-refresh.svg"
+            alt="illustration of women"
+          />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Imformation Technology</h3>
+            <p>
+              I've always been a tech-savvy person. So I burned the midnight-oil
+              in preparation for a University-entrance exam. You know what they
+              say "Hard work pay off" and I aced the test with flying colors.
+              Now I'm studying at HCMUTE with majoring IT and trying to learn a
+              lot of Technogy, programming language and interpersonal skill.
+            </p>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="things__item">
+          <!-- img -->
+          <img src="./img/day6.jpg" alt="illustration of women" />
+          <!-- text -->
+          <div class="things__item--heading">
+            <h3>Personal Habit</h3>
+            <p>
+              I've always been a music junkie.My perenial favourite group is
+              Day6, who is one of the famous rock band group. Not only are they
+              gook-looking, they are also talented. That why they can make a
+              killing from doing show and endorsement contract. I listen their
+              song on a regular basis, esp, I was tough in spot, I significant
+              blew of some steam and alliviated stress thanks to their song.
+            </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- works -->
+    <section id="works">
+      <div class="container">
+        <!-- dec -->
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <div class="works__dec">
+          <img src="./img/work-dec.png" alt="illustration of leaf" />
+        </div>
+        <!-- heading -->
+        <h2>Recent Exercise</h2>
+        <!-- img -->
+        <div class="works__img">
+          <div class="works__img--single">
+            <a
+              href="https://two2110237exercise6session.onrender.com/execersiseofficalweek6-1.0-SNAPSHOT"
+              ><img src="./img/7.3.png" alt="bag"
+            /></a>
+          </div>
+          <div class="works__img--single">
+            <a href="https://exercise6-2.onrender.com/exercise62git/"
+              ><img src="./img/6.2.png" alt="bag"
+            /></a>
+          </div>
+          <div class="works__img--single">
+            <a href="https://exersise-6-1.onrender.com/exercise_61/"
+              ><img src="./img/6.1.png" alt="bag"
+            /></a>
+          </div>
+          <div class="works__img--single">
+            <a
+              href="https://two2110237exercise5-2.onrender.com/c5_exercise02-1.0-SNAPSHOT/"
+              ><img src="./img/5.2.png" alt="bag"
+            /></a>
+          </div>
+          <div class="works__img--single">
+            <a
+              href="https://two2110237exercise6session.onrender.com/execersiseofficalweek6-1.0-SNAPSHOT"
+              ><img src="./img/5.1.png" alt="bag"
+            /></a>
+          </div>
+          <div class="works__img--single">
+            <a href="https://two2110237web.onrender.com/MurachEmailList/"
+              ><img src="./img/2.png" alt="bag"
+            /></a>
+          </div>
+          <div class="works__img--single">
+            <a href="https://two2110237emaillist.onrender.com/EmailList/"
+              ><img src="./img/1.png" alt="bag"
+            /></a>
+          </div>
+          <div class="works__img--single">
+            <a
+              href="https://two2110237exercise6session.onrender.com/execersiseofficalweek6-1.0-SNAPSHOT"
+              ><img src="./img/empty.png" alt="bag"
+            /></a>
+          </div>
+        </div>
+        <!-- btn -->
+        <div class="works__btn">
+          <a href="#"><button>View Works</button></a>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+      <div class="container">
+        <!-- dec -->
+        <div class="footer__dec">
+          <img src="./img/things-dec-l.png" alt="illustration of leaf" />
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+          <img src="./img/footer-img.png" alt="illustration of women" />
+        </div>
+        <!-- heading -->
+        <div class="footer__heading">
+          <h1>Ready to make something amazing?</h1>
+          <!-- contact -->
+          <div class="footer__contact">
+            <a href="tel:901234567">
+              <i class="fas fa-phone-alt"></i>
+              <p>0981819878</p>
+            </a>
+            <a href="mailto:info@me.com">
+              <i class="fas fa-envelope"></i>
+              <p>nguyenhuuductho0411@gmail.com</p>
+            </a>
+          </div>
+          <div class="banner__socials">
+            <a
+              href="https://www.facebook.com/profile.php?id=100011967645673&mibextid=LQQJ4d"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/iammoon________/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/28c0af3030.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
 </html>
